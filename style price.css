@@ -137,4 +137,13 @@
     margin-top: 50px;
   }
 }
+@media (max-width: 390px) {
+  .mobile_version {
+    margin-inline: 5px;
+  }
+  .mobile_version .panel {
+    padding: 0;
+    padding-left: 3%;
+  }
+}
 /*# sourceMappingURL=style price.css.map */
