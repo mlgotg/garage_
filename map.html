@@ -10,16 +10,22 @@
     <meta name="viewport" content="width=device-width">
     <link rel="icon" href="img/pistons-cross1.svg">
     <style>
+        .wrapper{
+            height: calc(100vh - 60px);
+        }
         body img{
-            margin: auto;
+            margin-inline:10%;
             margin-top: 100px;
             border-radius: 40px;
-            width:90%;
+            width:80%;
         }
         .how_to_hit_the_spot2{
             display: none;
         }
         @media (max-width: 700px){
+            body img{
+                margin: auto;}
+
             .how_to_hit_the_spot1{
                 display: none;
             }
@@ -63,6 +69,7 @@
         </script>
     </div>
 </header>
+<div class="wrapper">
 <img class="how_to_hit_the_spot1" src="img/how_to_take1.PNG">
 <img class="how_to_hit_the_spot2" src="img/how_to_take2.png">
 <div id="mySidenav" class="sidenav">
@@ -71,6 +78,7 @@
     <a href="price.html">Цены</a>
     <a href="map.html">Схема проезда</a>
     <a href="feedback.html">Отзывы</a>
+</div>
 </div>
 <footer>
     <div class="phone_number">
